@@ -10,9 +10,9 @@
 1. 任意のディレクトリ（以下、該当ディレクトリ）にダウンロード
 2. Pythonダウンロード
 3. コマンドプロンプトから必要なパッケージをインストール
-`python -m pip install python-osc`
-`python -m pip install flask`
+`python -m pip install python-osc`  
+`python -m pip install flask`  
 4. 該当ディレクトリに移動後、コマンドプロンプトから実行
-`python main.py`
+`python main.py`  
 5. localhost:8000をChromeで開く
 6. ウニ軍艦をドラッグすると移動できます（ドロップすると元の位置に戻ります）

@@ -1,0 +1,33 @@
+body {
+    background-color: #064887;
+}
+.title {
+    color: #ddd;
+    text-align: center;
+    text-size-adjust: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Noto Sans;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#moveDraggable { 
+    position: relative;
+    border: 1px solid #ddd;
+    width: 300px;
+    height: 300px;
+}
+
+#stick {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+    margin: 0;
+    padding: 0;
+}
